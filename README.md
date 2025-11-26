@@ -2,7 +2,7 @@
 
 Welcome to the Webzenith RBAC (Role-Based Access Control) project! This repository contains a robust and scalable application designed to manage user roles and permissions effectively. It's built with a modern tech stack to ensure performance, type safety, and a great developer experience.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 We've chosen a set of powerful tools to build this application:
 
@@ -14,7 +14,7 @@ We've chosen a set of powerful tools to build this application:
 -   **Monorepo:** [Turborepo](https://turbo.build/) - For high-performance build system and monorepo management.
 -   **Package Manager:** [pnpm](https://pnpm.io/) - For fast and efficient dependency management.
 
-## 📂 Project Structure
+##  Project Structure
 
 This project is organized as a monorepo:
 
@@ -23,7 +23,7 @@ This project is organized as a monorepo:
 -   **`packages/eslint-config`**: Shared ESLint configurations.
 -   **`packages/typescript-config`**: Shared TypeScript configurations.
 
-## 🛠️ Getting Started
+##  Getting Started
 
 Follow these steps to get the project running locally on your machine.
 
@@ -64,15 +64,7 @@ To start the development server for all apps:
 pnpm dev
 ```
 
-The web application should now be available at `http://localhost:3000`.
-
-## 🤝 Contributing
-
-We welcome contributions! Please ensure you follow the project's code style and run linting before submitting a PR.
-
-```bash
-pnpm lint
-```
+The web application should now be available at `http://localhost:3000/dashboard`, `http://localhost:3000/admin/roles`, `http://localhost:3000/admin/permissions`, `http://localhost:3000/admin/users`.
 
 ---
 
